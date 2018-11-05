@@ -65,7 +65,7 @@ EVM THREAD:
 
 RUNNING IT:
 -----------
-1. gcc -pthread EVM.c
+1. gcc -pthread polling.c
 2. ./a.out
 3. Input number of booths
 4. For each booth input number of EVMs, max number of slots of EVM(less than or equal to 10),number of Voters.
